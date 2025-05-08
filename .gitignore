@@ -1,0 +1,36 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Environment
+# .env
+.env.*
+
+# Docker
+*.log
+*.pid
+*.sock
+docker-compose.override.yaml
+*.db
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Test artifacts
+tests/__pycache__/
+tests/*.pyc
